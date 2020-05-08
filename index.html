@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iTunes Project</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>iTunes search!</div>
+    <div>Please enter the artist you wish to search for:</div>
+    <input type="text" id="artist">
+
+
+    <div>Please enter how many songs you want to return:</div>
+    <input type="number" id="limit">
+
+<button onclick="run()">GO!</button>
+<div id="searchresults"></div>
+<table id="output" border="1"></table>
+
+</body>
+</html>

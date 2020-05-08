@@ -1,0 +1,15 @@
+* {
+    font-family: "Times New Roman", sans-serif;
+    padding: 10px;
+    background: lightgray;
+    text-align: center;
+}
+
+#output {
+    display:none;
+}
+
+button {
+    background: darkslateblue;
+    color: black;
+}
